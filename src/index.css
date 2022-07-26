@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@100;200;300;400&display=swap');
+
+@font-face {
+  font-family: nothingLEd ;
+  src: url(../public/font/Nothing_NdroidOs_led.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: nothingDots;
+  src: url(../public/font/Nothing_ndroidos_dot.ttf);
+}
+
+@font-face {
+  font-family: nothingMain ;
+  src: url(../public/font/Nothing\ NdroidOs\ Main.ttf);
+}
+
+@font-face {
+  font-family: nothingOS;
+  src: url(../public/font/Nothing\ but\ NdroidOs.ttf);
+}
+
+@font-face {
+  font-family: nothingItalic;
+  src: url(../public/font/Nothing_NdroidOs_italic.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+  width: 100%;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  font-family: 'Taviraj', serif;
+  background-color: #fff;
+  color: #1d1d1f;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: #1d1d1f;
+}
+a:hover{
+  text-decoration: none;
 }
