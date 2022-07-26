@@ -45,6 +45,7 @@ body{
 a{
   text-decoration: none;
   color: #1d1d1f;
+  overflow:hidden;
 }
 a:hover{
   text-decoration: none;
