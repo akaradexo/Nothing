@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from "styled-components"
 import Section from './Section'
+import Feature from './Feature/Feature'
+
 
 function Home() {
   return (
@@ -15,6 +17,7 @@ function Home() {
             leftLink=""
             rightLink="( Learn more )"
         />
+        <Feature/>
         <Section
             backgroundImg="cover-2.png"
              cover="nothing event"
